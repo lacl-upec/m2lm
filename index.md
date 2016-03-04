@@ -1,13 +1,7 @@
 ---
 layout: post
-title: "Titre de M2LM"
+title: "Master 2, logique et modèles"
 ---
-Titre de M2LM
-===============
+Master 2, logique et modèles
+============================
 
-
-{% for post in site.posts reversed %}
-
-- [{{ post.title }}](/M2LM{{ post.url}})
-
-{% endfor %}
